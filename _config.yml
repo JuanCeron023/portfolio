@@ -1,16 +1,16 @@
 # Site settings
-title: A blog about lorem ipsum dolor sit amet
-description: A blog about lorem ipsum dolor sit amet
+title: Portafolio Juan Ceron
+description: Portafolio Juan Ceron
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
-# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://williau
 
 # User settings
 username: Juan Ceron
 user_description: Passionate Developer
 user_title: Software Developer
-email: anon@anon.com
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+email: juanceron256@gmail.com
+github_username:  JuanCeron023
+
 
 # Google-analytics
 google-analytics:
