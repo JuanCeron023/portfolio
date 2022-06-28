@@ -46,7 +46,6 @@
 .images-right {
   @media only screen and (min-width: $cut) {
     float: right;
-    width: 48%;
   }
   img {
     @media only screen and (min-width: $cut) {
@@ -58,7 +57,6 @@
 .images-left {
   @media only screen and (min-width: $cut) {
     float: left;
-    width: 48%;
   }
   img {
     @media only screen and (min-width: $cut) {
