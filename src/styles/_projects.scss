@@ -13,8 +13,10 @@
 .user-projects {
   margin: 20px auto;
   img {
-    max-width: 100%;
-    height: auto;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 5px;
   }
   h5 {
