@@ -7,7 +7,7 @@ source software, distributed under the The MIT License. So feel free to use this
 
 ## Credits
 
-This theme was partially designed with the inspiration from these fine folks
+This theme was partially designed with the inspiration from these folks
 - [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
 - [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
 - [Nathan Randecker](https://github.com/nrandecker/particle)
