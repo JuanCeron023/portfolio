@@ -6,7 +6,7 @@ This portfolio shows graphically some projects that I have done.
 
 ## Credits
 
-This theme was partially designed with the inspiration from these folks
+This portfolio design was designed with the inspiration from these folks
 - [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
 - [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
 - [Nathan Randecker](https://github.com/nrandecker/particle)
