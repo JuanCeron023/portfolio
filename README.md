@@ -2,8 +2,7 @@
 
 ![](./portfolio.png)
 
-This is a portfolio shows graphically some projects that I have done.
-source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+This portfolio shows graphically some projects that I have done.
 
 ## Credits
 
