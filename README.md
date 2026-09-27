@@ -12,7 +12,7 @@
 
 - **Languages**: Go (Golang), Java (Spring Boot), Python, TypeScript, SQL.
 - **Cloud & Infrastructure**: AWS (Kinesis, SQS, SNS, EventBridge, Lambda, ECS, S3, IAM), Docker, CloudFormation, Terraform.
-- **Databases & Storage**: PostgreSQL (pgvector), MongoDB, Redis, LSM-Tree Storage Engines, Partitioned Commit Logs.
+- **Databases & Storage**: PostgreSQL (pgvector), MongoDB, Redis, LSM-Tree Engines.
 - **Observability & Reliability**: Datadog, Grafana, CloudWatch, OpenTelemetry.
 - **Architectures**: Distributed Systems, Consensus (Raft), Event-Driven Architecture, Microservices, Domain-Driven Design (DDD).
 
@@ -30,9 +30,6 @@
 ### Distributed Systems & Storage Engines (Go)
 - **[Raft Consensus Feature Flags](https://github.com/JuanCeron023/raft-consensus-feature-flags)** — Distributed, strongly-consistent feature flagging system powered by the Raft consensus algorithm with dynamic leader election and replicated state machines.
 - **[LSM-Tree Time-Series Engine](https://github.com/JuanCeron023/lsm-timeseries-db-go)** — High-throughput append-only storage engine with WAL, in-memory SkipList memtable, SSTables with sparse index, Bloom filters, and background compaction.
-- **[Partitioned Commit Log](https://github.com/JuanCeron023/partitioned-commit-log-go)** — Kafka-inspired durable message broker in Go with multi-partitioned logs, memory-mapped index lookups, and consumer offset tracking.
-- **[Redis Storage Engine](https://github.com/JuanCeron023/redis-storage-engine-go)** — RESP-compliant in-memory key-value store with TTL eviction, atomic operations, and concurrent connection pooling.
-- **[Durable Job Queue](https://github.com/JuanCeron023/durable-job-queue-go)** — Resilient distributed background task engine with exponential backoff, dead-letter queues (DLQ), and heartbeats.
 
 ### Enterprise Experience
 - **High-Throughput Microservices (Disney via Globant)** — Go microservices and event pipelines handling 30K+ daily state updates with Kinesis and MongoDB, optimizing throughput by 2×.
