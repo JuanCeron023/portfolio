@@ -16,8 +16,6 @@ interface Props {
 
 const { project } = Astro.props;
 
-// Determine label to show on the right: repo name if available, otherwise a link icon
-const repoLabel = project.repo ? project.repo.split("/").pop() : null;
 ---
 
 <a
@@ -38,16 +36,11 @@ const repoLabel = project.repo ? project.repo.split("/").pop() : null;
 		{project.description}
 	</span>
 
-	<!-- Repo label or external arrow -->
-	<span class="flex shrink-0 items-center justify-end gap-1 font-mono text-xs tabular-nums text-foreground-3 transition-colors group-hover:text-foreground-2">
-		{repoLabel ? (
-			<span class="hidden sm:block">{repoLabel}</span>
-		) : (
-			<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-				<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
-				<polyline points="15 3 21 3 21 9"/>
-				<line x1="10" y1="14" x2="21" y2="3"/>
-			</svg>
-		)}
+	<!-- External arrow -->
+	<span class="flex shrink-0 items-center justify-end text-foreground-3 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-foreground">
+		<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M7 17L17 7"/>
+			<polyline points="7 7 17 7 17 17"/>
+		</svg>
 	</span>
 </a>
