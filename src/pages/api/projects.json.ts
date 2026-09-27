@@ -7,6 +7,8 @@ export async function GET() {
 		name: project.name,
 		repo: project.repo,
 		description: project.description,
+		longDescription: project.longDescription,
+		tags: project.tags,
 		url: project.url,
 		github: project.repo ? `https://github.com/${project.repo}` : undefined,
 	}));
