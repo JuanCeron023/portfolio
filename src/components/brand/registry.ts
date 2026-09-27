@@ -4,7 +4,19 @@ export type BrandName =
 	| "code"
 	| "android"
 	| "nextjs"
-	| "vercel";
+	| "vercel"
+	| "activity"
+	| "cpu"
+	| "sparkles"
+	| "book"
+	| "compass"
+	| "flag"
+	| "database"
+	| "server"
+	| "zap"
+	| "inbox"
+	| "briefcase"
+	| "award";
 
 export interface SvgEntry {
 	kind: "svg";
@@ -61,6 +73,102 @@ export const brandRegistry: Record<BrandName, BrandEntry> = {
 		kind: "svg",
 		viewBox: "0 0 24 24",
 		paths: '<path\n        fill="currentColor"\n        d="m12 1.5 12 21H0z"\n    />',
+	},
+	activity: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Activity",
+		fill: "none",
+		paths:
+			'<polyline points="22 12 18 12 15 21 9 3 6 12 2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></polyline>',
+	},
+	cpu: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Engine",
+		fill: "none",
+		paths:
+			'<rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><rect x="9" y="9" width="6" height="6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><line x1="9" y1="1" x2="9" y2="4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line><line x1="15" y1="1" x2="15" y2="4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line><line x1="9" y1="20" x2="9" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line><line x1="15" y1="20" x2="15" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line><line x1="20" y1="9" x2="23" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line><line x1="20" y1="15" x2="23" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line><line x1="1" y1="9" x2="4" y2="9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line><line x1="1" y1="15" x2="4" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>',
+	},
+	sparkles: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Sparkles",
+		fill: "none",
+		paths:
+			'<path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path><line x1="5" y1="3" x2="5" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="3" y1="5" x2="7" y2="5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="19" y1="17" x2="19" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="17" y1="19" x2="21" y2="19" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>',
+	},
+	book: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Book",
+		fill: "none",
+		paths:
+			'<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>',
+	},
+	compass: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Compass",
+		fill: "none",
+		paths:
+			'<circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></polygon>',
+	},
+	flag: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Flag",
+		fill: "none",
+		paths:
+			'<path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path><line x1="4" y1="22" x2="4" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>',
+	},
+	database: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Database",
+		fill: "none",
+		paths:
+			'<ellipse cx="12" cy="5" rx="9" ry="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>',
+	},
+	server: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Server",
+		fill: "none",
+		paths:
+			'<rect x="2" y="2" width="20" height="8" rx="2" ry="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><line x1="6" y1="6" x2="6.01" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line><line x1="6" y1="18" x2="6.01" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>',
+	},
+	zap: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Lightning",
+		fill: "none",
+		paths:
+			'<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></polygon>',
+	},
+	inbox: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Inbox",
+		fill: "none",
+		paths:
+			'<polyline points="22 12 16 12 14 15 10 15 8 12 2 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></polyline><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>',
+	},
+	briefcase: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Briefcase",
+		fill: "none",
+		paths:
+			'<rect x="2" y="7" width="20" height="14" rx="2" ry="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></path>',
+	},
+	award: {
+		kind: "svg",
+		viewBox: "0 0 24 24",
+		label: "Award",
+		fill: "none",
+		paths:
+			'<circle cx="12" cy="8" r="7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"></polyline>',
 	},
 };
 
